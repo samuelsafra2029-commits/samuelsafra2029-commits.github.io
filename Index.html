@@ -1,0 +1,61 @@
+<!DOCTYPE html> <html> <head> <title>Legacywordles</title>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+        font-size: 20px;
+    }
+
+    h1{
+        font-size: 50px;
+    }
+
+    .container{
+        display: flex;
+        align-items: flex-start;
+    }
+
+    ol{
+        font-size: 30px;
+        margin-left: 10px;  /* move list 10px to the right */
+        margin-right: 30px;
+    }
+
+    /* Make numbers 6 and 7 red */
+    ol li:nth-child(5)::marker, /* number 6 */
+    ol li:nth-child(4)::marker  /* number 7 */
+    {
+        color: red;
+    }
+
+    img{
+        width: 500px;
+        border: 10px solid grey;
+        margin-left: auto;   /* pushes image to right */
+        margin-right: 5px;   /* 5px from right edge */
+    }
+</style>
+</head> <body> <h1>First 10 <a href="https://www.nytimes.com/games/wordle/archive/2021/06">Wordles</a> Ever Created</h1>
+<div class="container">
+    <ol reversed>
+        <li>Serve</li>
+        <li>Naval</li>
+        <li>Evade</li>
+        <li>Focal</li>
+        <li>Blush</li>
+        <li>Awake</li>
+        <li>Humph</li>
+        <li>Sissy</li>
+        <li>Rebut</li>
+        <li>Cigar</li>
+    </ol>
+
+    <img src="wordleboard.png" alt="Wordle Board">
+</div>
+
+<br>
+<a href="file:///Users/sam2/Desktop/Compsci/definitions%20copy.html">Definitions</a>
+<a href="file:///Users/sam2/Desktop/Compsci/Wordle%20copy.html">Why this website?</a>
+<a href="https://github.com/teacher-aj/HeschelCS">GitHub</a>
+</body> 
+</html>
